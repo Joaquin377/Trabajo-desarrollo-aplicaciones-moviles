@@ -1,0 +1,43 @@
+{
+  "aviso": "DATOS 100% FICTICIOS / SINTETICOS. Sin datos reales de salud ni personales.",
+  "profesionales": [
+    { "id": "p1", "nombre": "Prof. Ficticia A. Rojas", "especialidad": "Psicología (perfil simulado)" },
+    { "id": "p2", "nombre": "Prof. Ficticio B. Soto", "especialidad": "Orientación y acompañamiento (simulado)" },
+    { "id": "p3", "nombre": "Prof. Ficticia C. Muñoz", "especialidad": "Psicología (perfil simulado)" }
+  ],
+  "citas": [
+    { "id": "c1", "profesionalId": "p1", "diasDesde": 1, "hora": 10, "estado": "DISPONIBLE" },
+    { "id": "c2", "profesionalId": "p1", "diasDesde": 2, "hora": 15, "estado": "DISPONIBLE" },
+    { "id": "c3", "profesionalId": "p1", "diasDesde": 4, "hora": 11, "estado": "DISPONIBLE" },
+    { "id": "c4", "profesionalId": "p2", "diasDesde": 1, "hora": 17, "estado": "DISPONIBLE" },
+    { "id": "c5", "profesionalId": "p2", "diasDesde": 3, "hora": 9,  "estado": "CONFIRMADA" },
+    { "id": "c6", "profesionalId": "p2", "diasDesde": 5, "hora": 16, "estado": "DISPONIBLE" },
+    { "id": "c7", "profesionalId": "p3", "diasDesde": 2, "hora": 12, "estado": "DISPONIBLE" },
+    { "id": "c8", "profesionalId": "p3", "diasDesde": 3, "hora": 18, "estado": "DISPONIBLE" },
+    { "id": "c9", "profesionalId": "p3", "diasDesde": 6, "hora": 10, "estado": "DISPONIBLE" }
+  ],
+  "registros": [
+    { "id": "r1", "diasAtras": 6, "animo": 3, "dominio": "SUENO",      "nota": "Dormí poco (dato de prueba)." },
+    { "id": "r2", "diasAtras": 5, "animo": 2, "dominio": "ESTRES",     "nota": "Semana con muchas entregas (dato de prueba)." },
+    { "id": "r3", "diasAtras": 4, "animo": 3, "dominio": "ENERGIA",    "nota": "" },
+    { "id": "r4", "diasAtras": 3, "animo": 4, "dominio": "RELACIONES", "nota": "Salí con amistades (dato de prueba)." },
+    { "id": "r5", "diasAtras": 2, "animo": 3, "dominio": "ANIMO",      "nota": "" },
+    { "id": "r6", "diasAtras": 1, "animo": 4, "dominio": "SUENO",      "nota": "Descansé mejor (dato de prueba)." }
+  ],
+  "recursos": [
+    { "id": "rec1", "titulo": "Respiración pausada (1 minuto)",
+      "descripcion": "Ejercicio breve de autocuidado.",
+      "contenido": "Inhala por la nariz contando 4, sostén 2 y exhala lentamente contando 6. Repite durante un minuto. Si te sientes peor, detente y busca apoyo.",
+      "url": "" },
+    { "id": "rec2", "titulo": "Higiene del sueño: ideas generales",
+      "descripcion": "Hábitos simples que algunas personas encuentran útiles.",
+      "contenido": "Mantén horarios regulares, reduce pantallas antes de dormir y evita cafeína en la tarde. Si los problemas de sueño persisten, consulta a un profesional.",
+      "url": "" },
+    { "id": "rec3", "titulo": "Ministerio de Salud de Chile",
+      "descripcion": "Información pública sobre salud mental y red de atención.",
+      "contenido": "", "url": "https://www.minsal.cl" },
+    { "id": "rec4", "titulo": "OMS: salud mental (ficha informativa)",
+      "descripcion": "Información pública general de la Organización Mundial de la Salud.",
+      "contenido": "", "url": "https://www.who.int/es/news-room/fact-sheets/detail/mental-health-strengthening-our-response" }
+  ]
+}
