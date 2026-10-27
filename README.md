@@ -1,4 +1,4 @@
-# VITAIROS-M · MVP móvil Android
+# VITAIROS-M · 
 
 Aplicación Android de orientación y bienestar emocional desarrollada para la asignatura **DSY1105 · Desarrollo de Aplicaciones Móviles**. Permite registrar el estado de ánimo, recibir orientación inicial, organizar citas con profesionales y consultar recursos de apoyo.
 
@@ -88,9 +88,3 @@ Por terminal: `./gradlew assembleDebug` y `./gradlew test`.
 | `Unresolved reference: R` | El `import ...R` debe usar el mismo paquete que el `namespace`. Haz `Build > Clean Project` y `Rebuild`. |
 | `resource drawable/ic_launcher_background not found` | `ic_launcher.xml` e `ic_launcher_round.xml` deben usar `@color/icono_fondo`. |
 | La fuente no cambia | Opcional: agrega `outfit_regular`, `outfit_medium`, `outfit_semibold` y `outfit_bold` (`.ttf`) en `res/font/`. |
-
-## Limitaciones
-
-- Datos ficticios; sin cuentas, servidor ni profesionales reales.
-- La orientación funciona por reglas, no por un modelo de IA real.
-- No usa cámara ni GPS.
